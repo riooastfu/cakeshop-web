@@ -1,0 +1,22 @@
+.menu{
+    text-align: center;
+}
+
+.menu__container{
+    margin-top: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1.875rem;
+}
+
+.menu__card{
+    margin-bottom: 20px;
+}
+
+.work__title{
+    padding-top: 10px;
+}
+
+.sub__title{
+    font-family: var(--sub-titlefont);
+    color: hsl(0, 0%, 35%);
+}
