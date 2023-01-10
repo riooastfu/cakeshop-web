@@ -20,3 +20,13 @@
     font-family: var(--sub-titlefont);
     color: hsl(0, 0%, 35%);
 }
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 500px) {
+    .menu__container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

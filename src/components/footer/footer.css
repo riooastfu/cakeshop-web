@@ -38,3 +38,27 @@ footer{
     font-size: 14px;
 }
 
+@media screen and (max-width: 768px) {
+    .content1 h1{
+        font-family: var(--caligraph-font);
+        font-size: 35px;
+    }
+
+    .content2{
+        grid-template-columns: 1fr;
+        color: antiquewhite;
+    }
+    .isi__content{
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .contact__container{
+        grid-template-columns: 1fr;
+    }
+
+    .footer__container{
+        margin-right: 10px;
+    }
+}

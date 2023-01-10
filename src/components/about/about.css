@@ -4,4 +4,29 @@
 
 .about__container{
     text-align: justify;
+    grid-template-columns: 3fr 4fr;
+    column-gap: 1.875rem;
+}
+
+.image{
+    object-fit: cover;
+    border-radius: 1.875%;
+    height: 500px;
+}
+
+@media screen and (max-width: 768px) {
+    .about__container{
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .about__container p{
+        margin-top: 10px;
+        
+    }
+    .image{
+        object-fit: cover;
+        border-radius: 1.875%;
+        height: 400px;
+    }
 }

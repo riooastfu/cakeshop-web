@@ -65,7 +65,7 @@
 
 @media screen and (max-width: 768px) {
     .contact__container{
-        grid-template-columns: 310px;
+        grid-template-columns: 600px;
         row-gap: 1.875rem;
     }
 
@@ -74,7 +74,7 @@
     }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 500px) {
     .contact__container{
         grid-template-columns: 1fr;
     }
