@@ -66,3 +66,9 @@ header{
     left: 0;
     bottom: -10px;
 }
+
+@media screen and (max-width: 1024px) {
+    header{
+        top: -110px;
+    }
+}

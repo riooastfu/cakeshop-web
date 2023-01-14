@@ -14,8 +14,8 @@ const Home = () => {
             <div className="home__container grid">
                 <img src={img1} alt="" className="home__img" />
                 <div className="home__bg1">
-                    <h1>Noah Western Cakes & Dessert</h1>
-                    <p>Premium quality cakes & dessert that made with love and passion.</p>
+                    <h1>Noah Western Cakes & Desserts</h1>
+                    <p>Premium quality cakes & desserts that made with love and passion.</p>
                 </div>
                 <img src={img2} alt="" className="home__img" />
             </div>

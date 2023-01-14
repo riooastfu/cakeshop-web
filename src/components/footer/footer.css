@@ -61,4 +61,11 @@ footer{
     .footer__container{
         margin-right: 10px;
     }
+    .content1 h1{
+        font-family: var(--caligraph-font);
+        font-size: 30px;
+    }
+    .isi__content p{
+        font-size: 12px;
+    }
 }
