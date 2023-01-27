@@ -8,7 +8,7 @@ export const Footer = () => {
                 <div className="content1">
                     <h1>
                         Noah <br/>
-                        Western Cakes & Dessert
+                        Western Cakes & Desserts
                     </h1>
                 </div>
                 <div className="content2 grid">

@@ -11,9 +11,9 @@ const About = () => {
             <div className="about__container grid">
                 <img src={img1} className="image" />
                 <p>
-                    Noah Western Cakes & Dessert is the pioneer in Australian style pastry shop chain in Bali, indonesia. Noah Western Cakes & Dessert steadily delivers promise of good quality and service to its stakeholders.
+                    Noah Western Cakes & Desserts is the pioneer in Australian style pastry shop chain in Bali, indonesia. Noah Western Cakes & Desserts steadily delivers promise of good quality and service to its stakeholders.
                     <br/><br/>
-                    Noah Western Cakes & Dessert delivers the steady promise of superior product quality, sensational product presentations with inventive packaging and exceptional service standards. Noah Western Cakes & Dessert's innovative approach drives the brand to continuously research and develop products, adding artful collaboration in each and every creation, making it a market leader in the business.
+                    Noah Western Cakes & Desserts delivers the steady promise of superior product quality, sensational product presentations with inventive packaging and exceptional service standards. Noah Western Cakes & Desserts innovative approach drives the brand to continuously research and develop products, adding artful collaboration in each and every creation, making it a market leader in the business.
                 </p>
             </div>
         </section>

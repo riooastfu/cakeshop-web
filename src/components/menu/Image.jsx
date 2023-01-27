@@ -1,4 +1,4 @@
-import Cake1 from '../../assets/img/menu.jpg'
+import Cake1 from '../../assets/img/mocca.jpg'
 import Cake2 from '../../assets/img/chocobelgium.jpg'
 import Cake3 from '../../assets/img/bunutcheeseccakelotus.jpg'
 import Cake4 from '../../assets/img/carrot.jpg'
@@ -10,12 +10,14 @@ import Cake9 from '../../assets/img/kelepon.jpg'
 import Cake10 from '../../assets/img/bananamuffin.jpg'
 import Cake11 from '../../assets/img/chocomuffin.jpg'
 import Cake12 from '../../assets/img/creampuff.jpg'
+import Cake13 from '../../assets/img/nutella.jpg'
+import Cake14 from '../../assets/img/crescent.jpg'
 
 const Image = [
     {
         id: 1,
         image: Cake1,
-        title: "Vanilla Cream Cake",
+        title: "Mocca Cake",
         category: "Cakes",
     },
     {
@@ -82,6 +84,18 @@ const Image = [
         id: 12,
         image: Cake12,
         title: "Cream Puff",
+        category: "Others",
+    },
+    {
+        id: 13,
+        image: Cake13,
+        title: "Nutella Mousse",
+        category: "Others",
+    },
+    {
+        id: 14,
+        image: Cake14,
+        title: "Crescent Moon Cake",
         category: "Others",
     },
 ];

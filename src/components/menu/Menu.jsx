@@ -1,5 +1,5 @@
 //import liraries
-import React from 'react';
+import React, { useEffect } from 'react';
 import './menu.css'
 import Image from './Image';
 import { useState } from 'react';
@@ -16,6 +16,10 @@ const Menu = () => {
         setItems(upadatedItems);
       }
 
+    useEffect(() => {
+        filterItem("Cakes")
+    },[])
+
     return (
         <section className="menu container section" id='menu'>
             <h2 className="section__title">Menu</h2>
@@ -24,7 +28,6 @@ const Menu = () => {
             </h4>
 
             <div className="menu__filters">
-                <span className="menu__item" onClick={() => setItems(Image)}>All</span>
                 <span className="menu__item" onClick={() => filterItem("Cakes")}>Cakes</span>
                 <span className="menu__item" onClick={() => filterItem("Cupcakes")}>Cupcakes</span>
                 <span className="menu__item" onClick={() => filterItem("Others")}>Others</span>
